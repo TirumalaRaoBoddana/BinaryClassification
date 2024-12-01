@@ -5,7 +5,7 @@ import numpy as np
 st.sidebar.image("binary.png")
 st.sidebar.header("Binary Classification Problem")
 menu_option=st.sidebar.radio(label="Select one",options=["Perceptron Leanrning ALgorithm"])
-if(menu_option=="Perceptron Leanrning ALgorithm"):
+if(menu_option=="Perceptron Leanrning Algorithm"):
     st.subheader("What is Binary Classification?")
     st.write("Binary classification is a type of supervised learning problem where the task is to categorize data into two distinct classes. Each data point is labeled as belonging to one of two categories, often represented as:")
     st.markdown("""<ul style='font-weight:bold'>
