@@ -296,7 +296,7 @@ if(menu_option=="Perceptron Leanrning ALgorithm"):
     with col2.container():
         col2.markdown("here n is the no.of input features and W is the weight vector and x is the input feature vector.y is the original value of the output label and y^ is the predicted value and is given by ŷ=step(z)where z=W<sup>T</sup>X",unsafe_allow_html=True)
     st.subheader("Vizualization of perceptron learning Algorithm: ")
-    st.image("perceptronAnimation.gif")
+    st.image("perceptronAnimation.gif",caption="Perceptron algorithm Visualization")
     st.subheader("Drawbacks of Perceptron Learning Algorithm: ")
     st.markdown("""
             <ul>
